@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clear-fix {
+  clear: both;
+}
+ul {
+  list-style: none;
+  font-family: "Alegreya Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 22px;
+}
+p,
+a {
+  font-family: "Alegreya Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+p,
+span {
+  line-height: 32px;
+  color: #686868;
+}
+
+/*home*/
+
+.home {
+  height: 100vh;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+/* navbar */
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  padding: 15px 0px;
+}
+.navbar img {
+  width: 15%;
+}
+.navbar ul {
+  float: right;
+  font-family: "Alegreya", serif;
+}
+.navbar ul li {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+}
+
+/*header*/
+
+.header {
+  margin: auto;
+  text-align: center;
+  margin-top: 48px;
+}
+.header h1 {
+  font-size: 74px;
+  margin-bottom: 20px;
+}
+.header p {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.header .btn {
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.header .btn2 {
+  background-color: transparent;
+  border-color: white;
+}
+.header .btn1 {
+  background-color:#8e7754;
+  border: none;
+}
+
+/* about */
+
+.about-container {
+  width: 90%;
+  margin-top: 45px;
+  margin: auto;
+}
+
+.about-img {
+  width: 45%;
+  margin-top: 45px;
+  float: left;
+}
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  float: left;
+  width: 50%;
+  margin-top: 45px;
+  padding: 45px 35px;
+  margin-left: 35px;
+}
+
+.about-content h2 {
+  margin-bottom: 25px;
+}
+
+.about-content li {
+  margin-bottom: 2px;
+  padding: 15px 0px 15px;
+}
+.about-content img {
+  width: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+/*our location*/
+
+.our-location {
+  background-color: #f8f8f8;
+}
+
+.our-location-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 45px;
+  padding: 45px 0px;
+}
+
+.our-location-content {
+  width: 50%;
+  float: left;
+  margin-top: 45px;
+  padding: 45px 0px;
+}
+
+.our-location-content h2 {
+  margin-bottom: 25px;
+}
+.our-location-content p {
+  margin-bottom: 20px;
+}
+
+.our-location-img {
+  width: 45%;
+  float: right;
+}
+
+.our-location-img img {
+  width: 100%;
+}
+
+/*our baking*/
+
+.our-baking-container {
+  width: 90%;
+  margin: 45px 0px;
+  padding: 45px 0px;
+  margin: auto;
+  text-align: center;
+}
+
+.our-baking-content p {
+  margin: 20px 0px;
+}
+
+.our-baking-item h3 {
+  margin: 25px 0px;
+}
+
+.our-baking-item {
+  width: 33%;
+  float: left;
+  padding: 20px;
+}
+
+.our-baking-item img {
+  width: 100%;
+}
+
+/*blog section*/
+
+.blog {
+  background-color: #f8f8f8;
+}
+
+.blog-container {
+  width: 90%;
+  margin: 45px;
+  padding: 45px 0px;
+  margin: auto;
+}
+
+.blog-content {
+  float: left;
+  width: 50%;
+}
+
+.blog-content p {
+  margin: 25px 0px;
+}
+
+.blog-img-container {
+  float: right;
+  width: 50%;
+}
+.blog-img-container iframe {
+  width: 100%;
+}
+
+.blog-content li {
+  padding: 15px;
+}
+
+.blog-content li img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 40px;
+  background-color: #8e7754;
+}
+
+/* contact section */
+
+.contact {
+  background-color: #403d38;
+  padding: 45px 0px;
+}
+.contact h2 {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 25px;
+}
+.contact p {
+  margin-bottom: 20px;
+}
+.contact-container {
+  width: 90%;
+  margin: auto;
+}
+.contact-item {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+
+.contact img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.contact .arrow {
+  width: 20px;
+}
+
+.contact-item li {
+  border-bottom: 1px solid #686868;
+  padding-bottom: 10px;
+}
+
+.contact-item .bgp {
+  background-image: url(images/contact-details-map.png);
+}
+
+/* Footer section */
+
+.footer {
+  background-color: #353330;
+  text-align: center;
+  padding: 45px 0px;
+}
+
+.footer p{
+  margin: 10px 0px;
+}
+
+.footer-icons img {
+  width: 40px;
+}
